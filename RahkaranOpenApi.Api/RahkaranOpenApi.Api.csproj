@@ -5,6 +5,10 @@
     <UserSecretsId>d49ee5d8-1721-4665-8a54-38130f481aa7</UserSecretsId>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\MyProjects\RahkaranOpenApi\RahkaranOpenApi.Api\RahkaranOpenApi.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>

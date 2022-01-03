@@ -21,6 +21,11 @@ namespace RahkaranOpenApi.Api.Controllers
             _restRequest = restRequest;
         }
 
+        /// <summary>
+        /// ثبت مشتری جدید
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         [HttpPost("RegisterCustomer")]
         public async Task<IActionResult> GetLoginDetails([FromBody] Dtos.Customers.RegisterNewCustomerDetails input)
         {

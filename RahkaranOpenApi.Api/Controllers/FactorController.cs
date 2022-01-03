@@ -21,6 +21,11 @@ namespace RahkaranOpenApi.Api.Controllers
             _restRequest = restRequest;
         }
 
+        /// <summary>
+        /// ثبت یک پیش فاکتور
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         [HttpPost("RegisterInvoice")]
         public async Task<IActionResult> RegisterInvoice(Dtos.Factors.RegisterInvoicesDetails input)
         {
