@@ -32,12 +32,12 @@ namespace RahkaranOpenApi.Api.Controllers
                     "Sales/OrderManagement/Services/OrderManagementService.svc/PlaceQuotation",
                     input,
                     new KeyValuePair<string, string>("Set-Cookie", $"sg-auth-sg={identity.Item2}"), new KeyValuePair<string, string>("Cookie", identity.Item1));
-                return Ok(response.Data);
+                return Ok(new { InvoiceId = response.Data });
             }
             catch (Exception error)
             {
                 return BadRequest(error.Message);
-            }   
+            }
         }
     }
 }
