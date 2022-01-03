@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RahkaranOpenApi.Api</name>
+    </assembly>
+    <members>
+        <member name="M:RahkaranOpenApi.Api.Controllers.CustomerController.GetLoginDetails(RahkaranOpenApi.Api.Controllers.Dtos.Customers.RegisterNewCustomerDetails)">
+            <summary>
+            ثبت مشتری جدید
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RahkaranOpenApi.Api.Controllers.FactorController.RegisterInvoice(RahkaranOpenApi.Api.Controllers.Dtos.Factors.RegisterInvoicesDetails)">
+            <summary>
+            ثبت یک پیش فاکتور
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
